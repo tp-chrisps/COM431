@@ -6,3 +6,5 @@ linkedlist.add(Node(2))
 linkedlist.add(Node(3))
 linkedlist.add(Node(4))
 linkedlist.add(Node(5))
+
+print(linkedlist.get(5))
