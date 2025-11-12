@@ -1,4 +1,4 @@
-from studentid import Student
+from classes.studentid import Student
 
 students = []
 for i in range(5):

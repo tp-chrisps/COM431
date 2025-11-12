@@ -34,5 +34,12 @@ class linkedlist:
             return current
         else: return "Error: out of bounds"
 
+    def insert(self, index, data):
 
+        current = self.first
+        for i in range(index):
+            current = current.next
+        x = current.next
+        #x.previous =
+        current.next.previous = current
 
